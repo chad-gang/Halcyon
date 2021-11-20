@@ -1,3 +1,12 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  a {
+    text-decoration: none;
+  }
 
 .container {
     width: 1024px;
@@ -18,7 +27,9 @@
     background-size: cover;
     height: 980px;
 }
-
+p {
+    background-color: #efcead;
+}
 .footer {
     background: #efcead;
     color: #fff;
@@ -33,7 +44,7 @@
 
 .logo {
     float: left;
-    margin: 20px 70px 0 0;
+    margin: 20px 45px 0 0;
 }
 
 .nav {
@@ -43,4 +54,61 @@
     float: left;
     border-left: 3px solid #ffffff;
     list-style-type: none;
+}
+
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.nav a {
+    display: block;
+    line-height: 30px;
+    padding: 0 20px 0 30px;
+    color: #fff;
+}
+
+.nav a:hover {
+    background-color: #240101;
+}
+
+#features{
+    margin: 34px;
+    display: flex;
+    justify-content: center;
+}
+#features .box{ 
+    border: 2px solid #efcead;
+    padding: 30px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 5px;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    color: #300000;
+}
+
+#features .box img{ 
+   height: 160px;
+   margin: auto;
+   display: grid;
+}
+
+#features .box p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #300000;
+    text-align: center;
+} 
+
+.inlinebox{
+    font-family: 'Lobster', cursive;
+    font-size: 4rem;
+    font-weight: lighter;
+    color: #efcead;
+    text-align: center;
+    letter-spacing: 5px;
+    padding-top: 50px;
+    margin-block-start: 0px;
 }
