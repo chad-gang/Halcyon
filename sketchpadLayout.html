@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@500&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sketch Pad</title>
+    <link href="styles.css" type="text/css" rel="stylesheet"/>
+    
+</head>
+<body>
+    <header class="header">
+        <div class="nav">
+           
+          <img id="heading_logo" src="logo.png" height="25" width="81" alt="">
+           
+            <div id="heading">
+                <h1>SKETCH PAD</h1>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="container">
+
+        <canvas id="canvas"></canvas>
+        <div class="tools">
+            <button onClick="undo_last()" type="button" class="btn">Undo</button>
+            <button onClick="clear_canvas()"type="button" class="btn">Clear</button>
+
+            <div onClick="change_color(this)" class="color-changer" style="background: red;"></div>
+            <div onClick="change_color(this)" class="color-changer" style="background: blue;"></div>
+            <div onClick="change_color(this)" class="color-changer" style="background: green;"></div>
+            <div onClick="change_color(this)" class="color-changer" style="background: yellow;"></div>
+            
+            <input onInput="draw_color = this.value" type="color" class="color-picker">
+            
+            
+        </div>
+    </section>
+    
+</body>
+
+<script src="main.js"></script>
+</html>
