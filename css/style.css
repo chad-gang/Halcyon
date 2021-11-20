@@ -1,0 +1,46 @@
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.header{
+    background:#260e05;
+    color: #fff;
+    height: 60px;
+}
+
+.hero {
+    background-color: #260e05;
+    background-image: url("images/homed.png"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 980px;
+}
+
+.footer {
+    background: #efcead;
+    color: #fff;
+    height: 30px;
+}
+
+.middle {
+    background: #260e05;
+    height: 650px;
+    margin-top: 0;
+}
+
+.logo {
+    float: left;
+    margin: 20px 70px 0 0;
+}
+
+.nav {
+    float: right;
+}
+.nav li {
+    float: left;
+    border-left: 3px solid #ffffff;
+    list-style-type: none;
+}
