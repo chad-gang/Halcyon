@@ -1,7 +1,7 @@
 <html>
 <head>
     <title>Music Website</title>
-    <link rel="stylesheet" href="music.css">
+    <link rel="stylesheet" href="css/music.css">
 </head>
 <body>
     <div class="container">
@@ -12,11 +12,11 @@
         </div>
         <div class="right-col">
             <p>Click Here to Play</p>
-            <img src="images/play.png" id="icon">
+            <img src="css/images/play.png" id="icon">
         </div>
     </div>
     <audio id="mySong">
-        <source src="images/Soft Piano in Light Rain.mp3" type="audio/mp3">
+        <source src="css/images/Soft Piano in Light Rain.mp3" type="audio/mp3">
     </audio>
 <script>
     var mySong=document.getElementById("mySong");
@@ -24,11 +24,11 @@
     icon.onclick=function(){
         if(mySong.paused){
             mySong.play();
-            icon.src="images/pause.png";
+            icon.src="css/images/pause.png";
         }
         else{
             mySong.pause();
-            icon.src="images/play.png";
+            icon.src="css/images/play.png";
         }
     }
 </script>
