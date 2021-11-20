@@ -1,0 +1,74 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('https://images.unsplash.com/photo-1445116572660-236099ec97a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80');
+}
+
+.header{
+    background:#260e05;
+    color: #fff;
+    height: 60px;
+}
+
+.logo {
+    margin: auto;
+    width: 7.5%;
+    padding: 10px;
+}
+
+.btn {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0px 9px;
+    background-color: white;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
+
+.container {
+    border: 2px solid black;
+    margin: 150px auto;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+    background-color: rgba(219, 216, 216, 0.466);
+    
+}
+
+
+.form-group input {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    display: block;
+    width: 400px;
+    height: 40px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 15px auto;
+    font-size: 25px;
+    border-radius: 8px;
+    background: #260e05;
+}
+
+.container h1 {
+    font-family: 'Mukta Malar', sans-serif;
+    text-align: center;
+    color: black;
+    letter-spacing: 2px;
+    
+}
+
+.container button {
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+    background: #260e05;
+    color: white;
+}
