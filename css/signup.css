@@ -46,6 +46,7 @@ body {
 .form-group input {
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
+    color: white;
     display: block;
     width: 400px;
     height: 40px;
