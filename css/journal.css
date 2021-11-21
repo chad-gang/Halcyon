@@ -1,24 +1,50 @@
-body{
-    margin: 0;
+body {
+    margin: 0px;
     padding: 0;
+    font-family: "Mukta";
+    overflow: hidden;
+    background-color: #260e05;
     background-image:url("./images/bg2.png");
     height: 100vh;
     width:100%;
     background-size: cover;
     background-position: center;
     position: relative;
+
 }
+
+.header{
+    background-color: #260e05;
+    color: #fff;
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+#heading {
+    margin: 5px auto;
+    justify-content: center;
+    font-family: 'Bree Serif', serif;
+}
+
+#heading_logo{
+    margin-left: 10px;
+    position: absolute;
+    margin: 6px;
+    margin-bottom: 50px;
+    width: 7.5%;
+}
+
+
 h2{
     margin: 0;
     padding: 0;
 }
-header{
-    background-color: #260e05;
-    color: blanchedalmond;
-    padding: .5rem;
-    margin-bottom: 10px;
-    font-size: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+a{
+    margin-left: 30px;
 }
 .wrapper{
     max-width: 500px;
@@ -28,7 +54,7 @@ header{
     padding: 0.5rem 1rem;
     border-radius: 3px;
     margin: .3rem 0;
-    background-color: rgba(148, 141, 141, 0.623);
+    background-color: rgba(255, 255, 255, 0.623);
 
 }
 .text-center{
@@ -40,7 +66,7 @@ textarea{
     font-size: 20px;
 }
 ::placeholder{
-    color: rgb(43, 46, 39);
+    color: whitesmoke;
     font-size: 18px;
     font-style: italic;
 }
