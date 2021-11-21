@@ -1,0 +1,33 @@
+body {
+    margin: 0px;
+    padding: 30px;
+    font-family: "Mukta";
+    overflow: hidden;
+    background-color: #260e05;
+
+}
+
+.header{
+  
+    color: #fff;
+    margin-top: -20px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+#heading {
+    margin: 5px auto;
+    justify-content: center;
+    font-family: 'Bree Serif', serif;
+}
+
+#heading_logo{
+    margin-left: 3px;
+    position: absolute;
+    margin: 6px;
+    margin-bottom: 50px;
+    width: 7.5%;
+}
