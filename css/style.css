@@ -22,6 +22,12 @@ html {
     width: 100%;
 }
 
+.button {
+    background:#531c08;
+    border: 2px solid white;
+    padding: 0px;
+    
+}
 .hero {
     background-color: #260e05;
     background-image: url("images/homed.png"); 
