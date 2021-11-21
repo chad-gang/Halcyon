@@ -17,6 +17,7 @@ html {
     background:#260e05;
     color: #fff;
     height: 60px;
+    width: 100%;
 }
 
 .hero {
@@ -26,14 +27,19 @@ html {
     background-position: center;
     background-size: cover;
     height: 980px;
+    width: 100%;
 }
-p {
-    background-color: #efcead;
-}
+
 .footer {
-    background: #efcead;
-    color: #fff;
-    height: 30px;
+    background: #221100;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0 20px 0 30px;
+    width: 100%;
+    color: rgb(48, 35, 35);
+    height: 60px;
 }
 
 .middle {
@@ -112,3 +118,31 @@ p {
     padding-top: 50px;
     margin-block-start: 0px;
 }
+
+.footer_container{
+    height: 40px;
+}
+
+.footer_container {
+    display: block;
+    line-height: 30px;
+    padding: 0 20px 0 30px;
+}
+
+.footer-text p{
+    padding-right:300px;
+    margin-top:20px;
+    float:right;
+    background-color: rgb(48, 35, 35);
+  }
+  
+a.menu{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    text-align: center;
+  }
+
+a.menu:hover {
+    background-color:rgba(2, 0, 0, 0.39);
+    color: whitesmoke;
+  }
