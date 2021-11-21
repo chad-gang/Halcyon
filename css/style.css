@@ -1,11 +1,13 @@
 html {
     box-sizing: border-box;
+    
   }
   *, *:before, *:after {
     box-sizing: inherit;
   }
   a {
     text-decoration: none;
+    color: #260e05;
   }
 
 .container {
@@ -119,14 +121,12 @@ html {
     margin-block-start: 0px;
 }
 
-.footer_container{
-    height: 40px;
-}
-
 .footer_container {
+    height: 40px;
     display: block;
     line-height: 30px;
     padding: 0 20px 0 30px;
+    text-align: center;
 }
 
 .footer-text p{

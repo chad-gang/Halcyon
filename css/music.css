@@ -6,11 +6,7 @@
 .container{
     height: 100vh;
     width:100%;
-<<<<<<< HEAD
-    background-image:url("images/bg.png");
-=======
     background-image:url("./images/bg.png");
->>>>>>> 68b81864d3b6f6f272dcb18893ede5336c7257ce
     background-size: cover;
     background-position: center;
     position: relative;
