@@ -64,6 +64,7 @@ textarea{
     width: 100%;
     background-color: rgba(131, 128, 128, 0.363);
     font-size: 20px;
+    color: white;
 }
 ::placeholder{
     color: whitesmoke;
